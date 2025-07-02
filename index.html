@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OrderOnTheGo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>OrderOnTheGo</h1>
+        <p>Your On-Demand Food Ordering Solution</p>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>Menu</h2>
+            <div id="menu-items">
+                <!-- Items will be rendered here -->
+            </div>
+        </section>
+        <section id="cart">
+            <h2>Your Cart</h2>
+            <div id="cart-items">
+                <!-- Cart items appear here -->
+            </div>
+            <div id="cart-summary">
+                Total: $<span id="cart-total">0.00</span>
+            </div>
+            <button id="place-order" disabled>Place Order</button>
+        </section>
+        <section id="order-confirmation" style="display:none;">
+            <h2>Order Placed!</h2>
+            <p>Thank you for ordering with OrderOnTheGo.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
